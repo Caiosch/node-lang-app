@@ -1,0 +1,461 @@
+body {
+	background-color:#000000;
+	background:url(../images/bg-body2.jpg) top center;
+	background-repeat:no-repeat;
+	margin:0;
+}
+a {
+	outline:none;
+}
+a img {
+	border:0;
+	display:block;
+}
+p a {
+	color:#404656!important;
+	text-decoration:underline!important;
+}
+p a:hover {
+	color:#000000!important;
+	text-decoration:underline!important;
+}
+
+.header {
+	z-index:100;
+}
+.header div {
+	height:60px;
+	margin:0 auto;
+	overflow:hidden;
+	width:960px;
+}
+.header div a#logo {
+	float:left;
+	margin:13px 0 0;
+}
+.header div ul {
+	float: right;
+	list-style: none outside none;
+	margin: 25px 0 0;
+}
+.header div ul li:first-child {
+	list-style:none;
+}
+.header div ul li {
+	color:#fff;
+	float:right;
+	list-style-position:inside;
+	list-style-type:none;
+	margin:0 0 0 30px;
+	position:relative;
+}
+.header div ul li.selected a, .header div ul li a:hover {
+	color:#fff;
+}
+.header div ul li a {
+	color:#c0bfbf;
+	font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+	font-size:14px;
+	letter-spacing:2px;
+	text-decoration:none;
+	text-transform:uppercase;
+	padding-right:4px;
+	
+}
+.header div ul li ul {
+	height:auto;
+	left:-99999px;
+	margin:0 0 0 13px;
+	position:absolute;
+	z-index:1000;
+}
+.header div ul li:hover ul {
+	left:0;
+}
+.header div ul li ul li:first-child {
+	background-color:#ddd;
+}
+.header div ul li ul li {
+	background-color:#c9c9c9;
+	border-bottom:1px solid #fefefe;
+	border-left:1px solid #e6e6e6;
+	border-right:1px solid #f5f5f5;
+	border-top:1px solid #d4d4d4;
+	list-style:none;
+	margin:0;
+	padding:2px 0 2px 0;
+	width:100px;
+}
+.header div ul li ul li a {
+	color:#464c5d!important;
+	font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+	font-size:12px;
+	text-transform:uppercase;
+	display:block;
+}
+.header div ul li ul li a:hover {
+	color:#fff!important;
+}
+
+.header .principal {
+	background:url(../images/bg-featured.png) repeat-x 0 -1px;
+	height:auto;
+	width:auto;
+}
+.header .principal img {
+	height:330px;
+	position:absolute;
+	width:50%;
+	left:0;
+}
+.header .principal div {
+	background:url(../images/img_topo_escola_01.jpg) no-repeat;
+	height:330px;
+	margin:0 auto;
+	position:relative;
+	width:970px;
+}
+
+.header .escola {
+	background:url(../images/bg-featured.png) repeat-x 0 -1px;
+	height:auto;
+	width:auto;
+}
+.header .escola img {
+	height:330px;
+	position:absolute;
+	width:50%;
+	left:0;
+}
+.header .escola div {
+	background:url(../images/img_topo_escola_02.jpg) no-repeat;
+	height:330px;
+	margin:0 auto;
+	position:relative;
+	width:970px;
+}
+
+.header .cursos {
+	background:url(../images/bg-featured.png) repeat-x 0 -1px;
+	height:auto;
+	width:auto;
+}
+.header .cursos img {
+	height:330px;
+	position:absolute;
+	width:50%;
+	left:0;
+}
+.header .cursos div {
+	background:url(../images/img_topo_escola_03.jpg) no-repeat;
+	height:330px;
+	margin:0 auto;
+	position:relative;
+	width:970px;
+}
+
+.header .contato {
+	background:url(../images/bg-featured.png) repeat-x 0 -1px;
+	height:auto;
+	width:auto;
+}
+.header .contato img {
+	height:330px;
+	position:absolute;
+	width:50%;
+	left:0;
+}
+.header .contato div {
+	background:url(../images/img_topo_escola_04.jpg) no-repeat;
+	height:330px;
+	margin:0 auto;
+	position:relative;
+	width:970px;
+}
+
+.body {
+	z-index:100;
+	padding:0 0 30px;
+}
+.body div {
+	margin:0 auto;
+	overflow:hidden;
+	width:970px;
+}
+.body div h2 {
+	color:#444a5b;
+	font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+	font-size:15px;
+	font-weight:400;
+	letter-spacing:2px;
+	margin:24px 0 0;
+	text-transform:uppercase;
+}
+.body div h2 a {
+	color:#444a5b;
+}
+.body div p {
+	color:#4e4e4e;
+	font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+	font-size:16px;
+	/* font-weight: bold; */
+	line-height:28px;
+	margin:10px 0px 10px 0px;
+	text-align:justify;
+	letter-spacing:0.001em;
+}
+.body div p a {
+	color:#8a8989;
+}
+.body div p a:hover {
+	color:#4b4b4b;
+}
+.body div ul {
+	list-style:none;
+	margin:22px 0 0;
+	overflow:hidden;
+	padding:0;
+}
+.body div ul li {
+	float:left;
+	margin:0 0 0 11px;
+	text-align:center;
+}
+.body div ul li a:first-child {
+	background:none;
+	height:auto;
+	margin:0 auto;
+	width:218px;
+}
+.body div ul li a:first-child img:hover {
+	filter:alpha(opacity=90);/* Needed for IE8 and old versions */
+	opacity:0.9;
+}
+.body div ul li a:first-child:hover {
+	background:none;
+}
+.body div ul li a {
+	background:url(../images/interface.png) no-repeat 0 -97px;
+	color:#d5d5d5;
+	display:block;
+	font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+	font-size:16px;
+	height:54px;
+	letter-spacing:2px;
+	line-height:55px;
+	text-decoration:none;
+	text-transform:uppercase;
+	width:231px;
+}
+.body div ul li > a:hover {
+	background:url(../images/interface.png) no-repeat 0 -152px;
+	text-decoration:none!important;
+}
+
+.body .blog div div h3 {
+	color:#444a5b;
+	font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+	font-size:16px;
+	font-weight:700;
+	letter-spacing:2px;
+	line-height:24px;
+	margin:0 0 10px;
+	text-transform:uppercase;
+}
+.body .blog div div:first-child {
+	background:none;
+	padding-top:0;
+	width:auto;
+}
+.body .blog div div {
+	background:url(../images/dashed-devider.png) repeat-x left top;
+	margin:0;
+	padding:22px 0 12px;
+}
+.body .blog div div ul li {
+	margin:0 0 8px;
+	text-align:left;
+}
+.body .blog div div ul li a {
+	color:#8a8989;
+	font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+	font-size:14px;
+	letter-spacing:0.001em;
+	line-height:24px;
+}
+.body .blog div div ul li a:hover {
+	color:#444A5B;
+}
+.body .blog p a:hover{
+	color:#444a5b!important;
+}
+.body .locator {
+	height:auto;
+	min-height:2284px;
+	padding:50px 0 0;
+}
+.body .locator .search {
+	float:left;
+	width:230px;
+}
+.body .locator .search h3 {
+	color:#444a5b;
+	font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+	font-size:16px;
+	font-weight:400;
+	letter-spacing:2px;
+	line-height:24px;
+	margin:0 0 13px;
+	text-transform:uppercase;
+}
+.body .locator .search form {
+	background:url(../images/bg-search.png) no-repeat;
+	height:183px;
+	padding:22px 0 0 26px;
+	width:204px;
+}
+.body .locator .search form label:first-child {
+	margin-top:0;
+}
+.body .locator .search form label {
+	color:#636363;
+	display:block;
+	font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+	font-size:12px;
+	letter-spacing:1px;
+	margin:21px 0 3px;
+	text-transform:uppercase;
+}
+.body .locator .search form input {
+	background-color:#fff;
+	border-bottom:1px solid #f1f1f1;
+	border-left:1px solid #f1f1f1;
+	border-right:1px solid #fdfdfd;
+	border-top:1px solid #f1f1f1;
+	color:#444a5b;
+	margin:0;
+	padding:5px;
+	width:169px;
+}
+.body .locator .search input#submit {
+	background:url(../images/interface.png) no-repeat 0 1px;
+	border:0;
+	color:#ddd;
+	cursor:pointer;
+	font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+	font-size:13px;
+	height:34px;
+	letter-spacing:1px;
+	margin:16px 0 0;
+	text-transform:uppercase;
+	width:186px;
+}
+.body .locator .search input#submit:hover {
+	background:url(../images/interface.png) no-repeat 0 -206px;
+}
+.body .locator ul {
+	float:left;
+	margin:0 0 0 29px;
+	padding:38px 0 0;
+	width:700px;
+}
+.body .locator ul li {
+	float:left;
+	margin:0 0 0 37px;
+	width:208px;
+}
+.body .locator ul li div:first-child {
+	background:none;
+	padding:0;
+}
+.body .locator ul li div {
+	background:url(../images/dashed-devider.png) repeat-x;
+	padding:37px 0 0;
+	text-align:left;
+	width:auto;
+}
+.body .locator ul li div h4 {
+	color:#404656;
+	font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+	font-size:14px;
+	font-weight:400;
+	margin:0;
+	text-transform:uppercase;
+}
+.body .locator ul li div a {
+	background:none;
+	color:#8A8989;
+	font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+	font-size:13px;
+	height:auto;
+	letter-spacing:1px;
+	line-height:13px;
+	margin:30px 0 45px;
+	text-decoration:underline;
+}
+.body div ul li a:hover {
+	color:#D5D5D5;
+}
+.body div ul li:first-child, .body .about ul li:first-child, .body .collections div ul li:first-child, .body .blog div div ul, .body .locator ul li:first-child {
+	margin:0;
+}
+.body .about, .body .collections {
+	height:auto;
+	min-height:2284px;
+	padding:29px 0 0;
+}
+
+.footer {
+	border-top:1px solid #dedede;
+	color:#929191;
+	font-family: 'forumregular';
+	font-size:12px;
+	height:36px;
+	text-transform:uppercase
+}
+.footer div {
+	margin:0 auto;
+	overflow:hidden;
+	width:960px
+}
+.footer div p {
+	float:left
+}
+.footer div p.address {
+	margin-left:65px
+}
+.footer div ul {
+	float:left;
+	list-style:none;
+	margin:12px 75px 12px 3px;
+	padding:0
+}
+.footer div ul li:first-child {
+	margin:0
+}
+.footer div ul li {
+	background:url(../images/separator2.png) no-repeat left center;
+	float:left;
+	margin:0 0 0 5px;
+	padding:0 0 0 7px
+}
+.footer div .connect {
+	float:right;
+	margin:12px 0 0 0;
+	width:auto
+}
+.footer div .connect a:first-child {
+	margin:0 10px 0 0
+}
+.footer div ul li a, .footer div .connect a {
+	color:#929191;
+	font-family: 'forumregular';
+	font-size:12px;
+	text-decoration:none;
+	text-transform:uppercase;
+	margin:0 10px 0 0;
+}
+.footer div ul li a:hover, .footer div .connect a:hover {
+	color:#4b4b4b;
+	text-decoration:none
+}

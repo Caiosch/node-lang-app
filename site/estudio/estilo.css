@@ -1,0 +1,652 @@
+viloca@charset "UTF-8";
+html {
+	height:100%;
+}
+body {
+	background-color:#000;
+	background-image:url(images/mic_background_darker.jpg);
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	margin:0px;
+	padding:0px;
+	text-align:center;
+}
+#borda {
+	background-color:#000;
+	border-left:solid #202020 10px;
+	border-right:solid #202020 10px;
+	height:1400px;
+	margin:0px auto;
+	text-align:left;
+	width:900px;
+}
+#principal {
+	background-color:#000;
+	background-image:url(images/leather_texture3.jpg);
+	background-repeat:repeat-x repeat-y;
+	border-left:solid #2e2e2e 2px;
+	border-right:solid #2e2e2e 2px;
+	height:1400px;
+	margin:0px auto;
+	text-align:left;
+	width:900px;
+}
+#borda.ensaiosBorder {
+	background-color:#000;
+	height:2295px;
+}
+#principal.ensaiosBorder {
+	background-color:#000;
+	height:2295px;
+}
+#borda.gravacoesBorder {
+	background-color:#000;
+	height:3038px;
+}
+#principal.gravacoesBorder {
+	background-color:#000;
+	height:3038px;
+}
+#borda.locacoesBorder {
+	background-color:#000;
+	height:1222px;
+}
+#principal.locacoesBorder {
+	background-color:#000;
+	height:1222px;
+}
+#borda.lutheriaBorder {
+	background-color:#000;
+	height:1035px;}
+#principal.lutheriaBorder {
+	background-color:#000;
+	height:1035px;
+}
+#borda.contatoBorder {
+	background-color:#000;
+	height:1180px;
+}
+#principal.contatoBorder {
+	background-color:#000;
+	height:1180px;
+}
+#margem {
+	float:left;
+	height:20px;
+	width:900px;
+}
+.floatRight {
+	float:right;
+}
+#logo {
+	background-image:url(images/logo_lumen_oficial.png);
+	background-repeat:no-repeat;
+	border:none;
+	clear:both;
+	float:left;
+	height:100px;
+	margin:0px 0px 0px 10px;
+	width:850px;
+}
+.homeLink {
+	clear:both;
+	float:left;
+	display:block;
+	height:100px;
+	width:183px;
+	padding-left:130px;
+}
+#menu {
+	border-top:solid #909090 1px;
+	float:left;
+	height:50px;
+	width:100%;
+}
+a:link, a:visited, a:active {
+	color:#909090;
+	text-decoration:none;
+}
+a:hover {
+	color:#53769A;
+	text-decoration:none;
+}
+ul li {
+	font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+	float:left;
+	height:35px;
+	list-style: none;
+	min-width:118px;
+	padding:0px 7px 0px 0px;
+	font-size:16px;
+	text-align:center;
+}
+span {
+	color:#909090;
+	float:left;
+	margin: 0px 5px 0px 0px;
+	padding-top:2px
+}
+span.txtCinza {
+	color:#909090;
+	font-size:14px;
+	margin:0px;
+	width:410px;
+}
+span.txtBranco {
+	color:#FFF;
+	font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+	font-size:10px;
+	margin:0px;
+	width:410px;
+}
+.slider-wrapper {
+	float:left;
+	height:330px;
+	width:900px;
+}
+h1 {
+	font-family:Verdana, Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", sans-serif;
+	font-size:16px;
+	color:#53769A;
+	float:left;
+	margin:20px 20px;
+	text-align:left;
+	width:410px;
+}
+.large {
+	width:580px;
+}
+p {
+	color:#FFFFFF;
+	float:left;
+	font-family:Verdana, Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", sans-serif;
+	font-size:12px;
+	line-height:20px;
+	margin:0px 20px;
+	text-align:justify;
+	width:410px;
+}
+#embedsSoundCloud {
+	border:solid black 1px;
+	float:left;
+	margin:0px 0px 20px 20px;
+	width:410px;
+}
+#videosGravacoes {
+	border:solid #2e2e2e 0px;
+	float:left;
+	margin:0px 0px 20px 20px;
+	width:410px;
+}
+#fotosEstudios {
+	float:left;
+	margin:0px 0px 20px 20px;
+	width:410px;
+}
+#foto01 {
+	background-image:url(images/recepcao_1_peq.jpg);
+	background-repeat:no-repeat;
+	border:solid #2e2e2e 2px;
+	float:left;
+	height:120px;
+	margin:5px 0px 5px 0px;
+	width:120px;
+}
+#foto02 {
+	background-image:url(images/recepcao_2_peq.jpg);
+	background-repeat:no-repeat;
+	border:solid #2e2e2e 2px;
+	float:left;
+	height:120px;
+	margin:5px 0px 5px 10px;
+	width:120px;
+}
+#foto03 {
+	background-image:url(images/estudio_de_gravacao_peq_1.jpg);
+	background-repeat:no-repeat;
+	border:solid #2e2e2e 2px;
+	float:left;
+	height:120px;
+	margin:5px 0px 5px 10px;
+	width:120px;
+}
+#foto04 {
+	background-image:url(images/estudio_de_gravacao_peq_2.jpg);
+	background-repeat:no-repeat;
+	border:solid #2e2e2e 2px;
+	float:left;
+	height:120px;
+	margin:5px 0px 5px 0px;
+	width:120px;
+}
+#foto05 {
+	background-image:url(images/estudio_de_ensaio_3_peq.jpg);
+	background-repeat:no-repeat;
+	border:solid #2e2e2e 2px;
+	float:left;
+	height:120px;
+	margin:5px 0px 5px 10px;
+	width:120px;
+}
+#foto06 {
+	background-image:url(images/estudio_de_ensaio_4_peq.jpg);
+	background-repeat:no-repeat;
+	border:solid #2e2e2e 2px;
+	float:left;
+	height:120px;
+	margin:5px 0px 5px 10px;
+	width:120px;
+}
+#foto07 {
+	background-image:url(images/estudio_de_ensaio_5_peq.jpg);
+	background-repeat:no-repeat;
+	border:solid #2e2e2e 2px;
+	float:left;
+	height:120px;
+	margin:5px 0px 5px 0px;
+	width:120px;
+}
+#foto08 {
+	background-image:url(images/estudio_de_ensaio_6_peq.jpg);
+	background-repeat:no-repeat;
+	border:solid #2e2e2e 2px;
+	float:left;
+	height:120px;
+	margin:5px 0px 5px 10px;
+	width:120px;
+}
+#foto09 {
+	background-image:url(images/estudio_de_gravacao_peq_4.jpg);
+	background-repeat:no-repeat;
+	border:solid #2e2e2e 2px;
+	float:left;
+	height:120px;
+	margin:5px 0px 5px 10px;
+	width:120px;
+}
+#foto01Ensaios {
+	background-image:url(images/estudio_de_ensaio_1_peq.jpg);
+	background-repeat:no-repeat;
+	border:solid #2e2e2e 2px;
+	float:left;
+	height:120px;
+	margin:5px 0px 5px 0px;
+	width:120px;
+}
+#foto02Ensaios {
+	background-image:url(images/estudio_de_ensaio_2_peq.jpg);
+	background-repeat:no-repeat;
+	border:solid #2e2e2e 2px;
+	float:left;
+	height:120px;
+	margin:5px 0px 5px 10px;
+	width:120px;
+}
+#foto03Ensaios {
+	background-image:url(images/estudio_de_ensaio_3_peq.jpg);
+	background-repeat:no-repeat;
+	border:solid #2e2e2e 2px;
+	float:left;
+	height:120px;
+	margin:5px 0px 5px 10px;
+	width:120px;
+}
+#foto04Ensaios {
+	background-image:url(images/estudio_de_ensaio_4_peq.jpg);
+	background-repeat:no-repeat;
+	border:solid #2e2e2e 2px;
+	float:left;
+	height:120px;
+	margin:5px 0px 5px 0px;
+	width:120px;
+}
+#foto05Ensaios {
+	background-image:url(images/estudio_de_ensaio_5_peq.jpg);
+	background-repeat:no-repeat;
+	border:solid #2e2e2e 2px;
+	float:left;
+	height:120px;
+	margin:5px 0px 5px 10px;
+	width:120px;
+}
+#foto06Ensaios {
+	background-image:url(images/estudio_de_ensaio_6_peq.jpg);
+	background-repeat:no-repeat;
+	border:solid #2e2e2e 2px;
+	float:left;
+	height:120px;
+	margin:5px 0px 5px 10px;
+	width:120px;
+}
+#foto01Gravacoes {
+	background-image:url(images/estudio_de_gravacao_peq_1.jpg);
+	background-repeat:no-repeat;
+	border:solid #2e2e2e 2px;
+	float:left;
+	height:120px;
+	margin:5px 0px 5px 0px;
+	width:120px;
+}
+#foto02Gravacoes {
+	background-image:url(images/estudio_de_gravacao_peq_2.jpg);
+	background-repeat:no-repeat;
+	border:solid #2e2e2e 2px;
+	float:left;
+	height:120px;
+	margin:5px 0px 5px 10px;
+	width:120px;
+}
+#foto03Gravacoes {
+	background-image:url(images/estudio_de_gravacao_peq_3.jpg);
+	background-repeat:no-repeat;
+	border:solid #2e2e2e 2px;
+	float:left;
+	height:120px;
+	margin:5px 0px 5px 10px;
+	width:120px;
+}
+#foto04Gravacoes {
+	background-image:url(images/nomeDaFoto.jpg);
+	background-repeat:no-repeat;
+	border:solid #2e2e2e 2px;
+	float:left;
+	height:120px;
+	margin:5px 0px 5px 0px;
+	width:120px;
+}
+#foto05Gravacoes {
+	background-image:url(images/nomeDaFoto.jpg);
+	background-repeat:no-repeat;
+	border:solid #2e2e2e 2px;
+	float:left;
+	height:120px;
+	margin:5px 0px 5px 10px;
+	width:120px;
+}
+#foto06Gravacoes {
+	background-image:url(images/nomeDaFoto.jpg);
+	background-repeat:no-repeat;
+	border:solid #2e2e2e 2px;
+	float:left;
+	height:120px;
+	margin:5px 0px 5px 10px;
+	width:120px;
+}
+#foto01Luthieria {
+	background-image:url(images/luthieria_peq_1.jpg);
+	background-repeat:no-repeat;
+	border:solid #2e2e2e 2px;
+	float:left;
+	height:120px;
+	margin:5px 0px 5px 0px;
+	width:120px;
+}
+#foto02Luthieria {
+	background-image:url(images/luthieria_peq_2.jpg);
+	background-repeat:no-repeat;
+	border:solid #2e2e2e 2px;
+	float:left;
+	height:120px;
+	margin:5px 0px 5px 10px;
+	width:120px;
+}
+#foto03Luthieria {
+	background-image:url(images/luthieria_peq_3.jpg);
+	background-repeat:no-repeat;
+	border:solid #2e2e2e 2px;
+	float:left;
+	height:120px;
+	margin:5px 0px 5px 10px;
+	width:120px;
+}
+#foto01Locacoes {
+	background-image:url(images/locacao_equipamentos_peq_1.jpg);
+	background-repeat:no-repeat;
+	border:solid #2e2e2e 2px;
+	float:left;
+	height:120px;
+	margin:5px 0px 5px 0px;
+	width:120px;
+}
+#foto02Locacoes {
+	background-image:url(images/locacao_equipamentos_peq_2.jpg);
+	background-repeat:no-repeat;
+	border:solid #2e2e2e 2px;
+	float:left;
+	height:120px;
+	margin:5px 0px 5px 10px;
+	width:120px;
+}
+#foto03Locacoes {
+	background-image:url(images/locacao_equipamentos_peq_3.jpg);
+	background-repeat:no-repeat;
+	border:solid #2e2e2e 2px;
+	float:left;
+	height:120px;
+	margin:5px 0px 5px 10px;
+	width:120px;
+}
+#video01 {
+	border:solid #2e2e2e 1px;
+	float:left;
+	height:120px;
+	margin:5px 0px 5px 0px;
+	width:120px;
+}
+#video02 {
+	border:solid #2e2e2e 1px;
+	float:left;
+	height:120px;
+	margin:5px 0px 5px 10px;
+	width:120px;
+}
+#video03 {
+	border:solid #2e2e2e 1px;
+	float:left;
+	height:120px;
+	margin:5px 0px 5px 10px;
+	width:120px;
+}
+#video04 {
+	border:solid #2e2e2e 1px;
+	float:left;
+	height:120px;
+	margin:5px 0px 5px 0px;
+	width:120px;
+}
+#video05 {
+	border:solid #2e2e2e 1px;
+	float:left;
+	height:120px;
+	margin:5px 0px 5px 10px;
+	width:120px;
+}
+#video06 {
+	border:solid #2e2e2e 1px;
+	float:left;
+	height:120px;
+	margin:5px 0px 5px 10px;
+	width:120px;
+}
+#cursosLarge {
+	float:left;
+	width:100%;
+}
+#fotoCursos {
+	background-image:url(images/cursosFoto01.jpg);
+	background-repeat:no-repeat;
+	border:solid #2e2e2e 2px;
+	float:left;
+	height:133px;
+	margin-left:20px;
+	width:200px;
+}
+.saibaMais {
+	float:left;
+	margin-left:0px;
+	margin-top:10px;
+	font-family:Verdana, Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", sans-serif;
+	font-size:10px;
+	width:200px;
+}
+.margem {
+	margin-left:20px;
+}
+#mailpagsocial {
+	border-top:solid #606060 1px;
+	float:left;
+	margin-top:20px;
+	height:270px;
+	width:900px;
+	padding:0;
+	margin:0;
+}
+#mailing {
+	border-right:solid #606060 1px;
+	float:left;
+	height:290px;
+	width:280px;
+}
+#pagamentos {
+	border-right:solid #606060 1px;
+	float:left;
+	height:290px;
+	width:180px;
+}
+#social {
+	border-right:solid #606060 0px;
+	float:left;
+	height:290px;
+	width:160px;
+}
+#fembed {
+	border-left:solid #606060 0px;
+	float:left;
+	height:290px;
+	width:270px;
+}
+.mail {
+	width:230px;
+}
+#cartoes {
+	float:left;
+	height:37px;
+	margin:10px 10px;
+	width:61px;
+}
+#cartoes.visa {
+	background-image:url(images/visab.gif);
+	background-repeat:no-repeat;
+	margin-left:20px;
+}
+#cartoes.mastercard {
+	background-image:url(images/mastercardb.gif);
+	background-repeat:no-repeat;
+}
+#redeSocial {
+	float:left;
+	height:51px;
+	margin:10px 10px;
+	width:51px;
+}
+#redeSocial.soundcloud {
+	background-image:url(images/soundcloudb.png);
+	background-repeat:no-repeat;
+	margin-left:20px;
+}
+#redeSocial.myspace {
+	background-image:url(images/myspace.png);
+	background-repeat:no-repeat;
+}
+#redeSocial.instagram {
+	background-image:url(images/instagramb.png);
+	background-repeat:no-repeat;
+	margin-left:20px;
+}
+#redeSocial.twitter {
+	background-image:url(images/twitterb.png);
+	background-repeat:no-repeat;
+}
+#ensaiosFoto {
+	background-image:url(images/ensaiosFotob.jpg);
+	background-repeat:no-repeat;
+	float:left;
+	height:330px;
+	width:900px;
+}
+#gravacoesFoto {
+	background-image:url(images/gravacoesFotob.jpg);
+	background-repeat:no-repeat;
+	float:left;
+	height:330px;
+	width:900px;
+}
+#locacoesFoto {
+	background-image:url(images/locacoesFotob.jpg);
+	background-repeat:no-repeat;
+	float:left;
+	height:330px;
+	width:900px;
+}
+#luthieriaFoto {
+	background-image:url(images/luthieriaFoto.jpg);
+	background-repeat:no-repeat;
+	float:left;
+	height:330px;
+	width:900px;
+}
+#mapaContato {
+	background-image:url(images/mapa_peq.gif);
+	background-repeat:no-repeat;
+	background-position:center;
+	border:dotted #ccc 1px;
+	float:left;
+	height:255px;
+	margin:5px 0px 10px 20px;
+	width:310px;
+}
+a.mapa {
+	display:block;
+	height:255px;
+	width:310px;
+}
+#rodape {
+	border-top:solid #606060 20px;
+	float:left;
+	height:80px;
+	margin:20px 0px;
+	text-align:center;
+	width:900px;
+}
+#rodape p.large {
+	margin:0px;
+	padding:20px;
+	text-align:center;
+	width:860px;
+}
+a.fotos {
+	display:block;
+	height:120px;
+	width:120px;
+}
+
+/*formulario Newsletter */
+
+.txtForm {
+	color:#CCC;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:12px;
+	padding-left:17px;
+}
+#campos {
+	border:solid #aaadd3 1px;
+	color:#936464;
+	width:180px;
+}
+#botaoEnviar {
+	background-color:#FFF;
+	border:solid #ccc 1px;
+	color:#aaadd3;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:12px;
+}
