@@ -6,6 +6,8 @@ const app = express();
 // Serve the files in /assets at the URI /assets.
 app.use('/assets', express.static('assets'));
 app.use('/lang-app', express.static('lang-app/out'));
+app.use('/estudio', express.static('site/estudio'));
+app.use('/escola', express.static('site/escola'));
 
 // The HTML content is produced by rendering a handlebars template.
 // The template values are stored in global state for reuse.
@@ -35,6 +37,24 @@ app.get('/', async (req, res) => {
     console.error(e);
     res.status(500).send('Internal Server Error');
   }
+});
+
+app.get('/estudio', async (req, res) => {
+    try {
+        readFileSync('index.html', 'utf8');
+    } catch (e) {
+        console.error(e);
+        res.status(500).send('Internal Server Error');
+    }
+});
+
+app.get('/escola', async (req, res) => {
+    try {
+        readFileSync('index.html', 'utf8');
+    } catch (e) {
+        console.error(e);
+        res.status(500).send('Internal Server Error');
+    }
 });
 
 app.get('/api', async (req, res) => {
